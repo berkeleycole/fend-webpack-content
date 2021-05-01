@@ -39,8 +39,8 @@ mode: "development"/"production"
 We also have to edit our npm script to use the correct files we run npm build. Your scripts will look like this:
 
 ```
-    "build-prod": "--config webpack.prod.js",
-    "build-dev": "--config webpack.prod.js"
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js"
 ```
 
 
