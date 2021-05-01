@@ -7,7 +7,7 @@ npm i webpack webpack-cli
 
 You have been successful when you see webpack and webpack-cli added to your package.json dependencies
 
-2. Get the basic webpack config up and running:
+2. Get the basic webpack config up and running (NOTE: It is expected that you will see an error upon running the code after you complete these steps):
 
 - [ ] Create a webpack.config.js file in the project root (`fend-wepack-content/webpack.config.js`)
 - [ ] Add the new build npm script to your package.json ``` "build": "webpack" ```
